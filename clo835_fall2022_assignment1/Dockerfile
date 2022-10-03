@@ -8,7 +8,6 @@ RUN set -xe \
     && apt-get install -y mysql-client 
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
-RUN pip install cryptography
 EXPOSE 8080
 ENTRYPOINT [ "python3" ]
 CMD [ "app.py" ]
