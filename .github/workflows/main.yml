@@ -21,7 +21,7 @@ jobs:
  
   # Env to use the repositories     
     env:
-     ECR_REPO_PREFIX: clo835assignment1-dev
+     ECR_REPO_PREFIX: assignment1-dev
      IMAGE_TAG: v1.0
        
      
