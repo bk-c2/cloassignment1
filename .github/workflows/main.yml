@@ -59,6 +59,7 @@ jobs:
         env:
          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
          ECR_REPOSITORY: db
+         IMAGE_TAG: v0.1
         run: |
           cd clo835_fall2022_assignment1/  
           ls -ltra
